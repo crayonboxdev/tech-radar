@@ -1,0 +1,28 @@
+html {
+  --radar-background-color: #fff;
+  --radar-gridline-stroke: #dddde0;
+  --radar-color-inactive: #ddd;
+  --radar-color-ring1: #5ba300;
+  --radar-color-ring2: #009eb0;
+  --radar-color-ring3: #c7ba00;
+  --radar-color-ring4: #e09b96;
+}
+body {
+  font-family: "Source Sans Pro", arial, helvetica, sans-serif;
+  padding-bottom: 50px;
+}
+h3 {
+  margin-top: 50px;
+}
+li {
+  margin: 25px 50px 0 0;
+}
+table {
+  width: 1400px;
+  margin: 0 50px 0 50px;
+}
+td {
+  width: 50%;
+  vertical-align: top;
+  padding-right: 60px;
+}
