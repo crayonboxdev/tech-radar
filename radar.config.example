@@ -1,0 +1,5 @@
+ORG_NAME="EXAMPLE"
+BASE_URL="www.example.com"
+DATE="2024-09-12"
+QUADRANTS=("Techniques" "Tools" "Platforms" "Languages \& Frameworks")
+RINGS=("Adopt" "Trial" "Assess" "Hold")
