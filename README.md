@@ -30,7 +30,8 @@ RINGS=("Adopt" "Trial" "Assess" "Hold")
 3. Modify the `template.html` file to fit your needs.
 4. Run `./build.sh`, it creates an index.html file from the template and the `radar.config` file
 5. Open the `index.html` in your browser
-6. Deploy your website using a provider of your choice
+6. Customize `style.css`
+7. Deploy your website using a provider of your choice
 
 ## Variables
 
