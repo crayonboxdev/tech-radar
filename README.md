@@ -54,4 +54,4 @@ RINGS=("Adopt" "Trial" "Assess" "Hold")
 This project is built on top of amazing open source work:
 
 - [Thoughtworks](https://www.thoughtworks.com/radar) created the initial Tech Radar concept and provides a library to [build your own radar](https://github.com/thoughtworks/build-your-own-radar).
-- [Zalando] built the [visualization](https://opensource.zalando.com/tech-radar/) used in this project.
+- [Zalando](https://github.com/zalando/tech-radar) built the [visualization](https://opensource.zalando.com/tech-radar/) used in this project.
