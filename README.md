@@ -1,19 +1,22 @@
 # tech-radar
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./CODE_OF_CONDUCT.md)
+
 Create your own tech radar vizualisation to show current technology choices in your organization.
 
 ## Get started
 
 1. Clone the repository
 
-```console
+```sh
 git clone https://github.com/crayonboxdev/tech-radar
 ```
 
 2. Create a `radar.config` file from the example and edit the values:
 
-```console
-cp radar.config.example radar.config
+```sh
+mv radar.config.example radar.config
 ```
 
 > [!IMPORTANT]
@@ -27,11 +30,11 @@ QUADRANTS=("Techniques" "Tools" "Platforms" "Languages \& Frameworks")
 RINGS=("Adopt" "Trial" "Assess" "Hold")
 ```
 
-3. Modify the `template.html` file to fit your needs.
-4. Run `./build.sh`, it creates an index.html file from the template and the `radar.config` file
-5. Open the `index.html` in your browser
+3. Customize `template.html` for your organization
+4. Run `./build.sh`
+5. Open the generated `index.html` in your browser
 6. Customize `style.css`
-7. Deploy your website using a provider of your choice
+7. Deploy your website on your hosting provider
 
 ## Variables
 
@@ -48,6 +51,14 @@ RINGS=("Adopt" "Trial" "Assess" "Hold")
 | [RING_1]          | Middle-Inner Ring     | RINGS         |
 | [RING_2]          | Middle-Outer Ring     | RINGS         |
 | [RING_3]          | Outer Ring            | RINGS         |
+
+## Contributing
+
+To contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](./CONTRIBUTING.md) and the [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+## License
+
+This project is licensed under [Apache 2.0](./LICENSE).
 
 ## Credits
 
